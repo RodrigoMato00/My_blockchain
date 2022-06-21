@@ -30,7 +30,7 @@ private:
     time_t _tTime; //time of the block
 
     string _CalculateHash() const;
-    // _CalculateHash (line 18) also has the const keyword, this is
+    // _CalculateHash also has the const keyword, this is
     // to ensure the method cannot change any of the variables in the block
     // class which is very useful when dealing with a blockchain.
 };
