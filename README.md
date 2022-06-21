@@ -20,7 +20,7 @@ The hash algorithm used is SHA-256
 
 Example:
 
-'''
+```
 ~/ git clone https://github.com/RodrigoMato00/My_blockchain.git
 ........
 ~/ cd My_blockchain
@@ -32,4 +32,4 @@ Block mined: 00000031882d579d7ed4fa8f761c62d24bcae6dfa7237218f11cbce22faed369
 Block mined: 000000448e6eb4b0584f4b8d961c40e75deafae0706acf5cf7a61a792fe0e1dd
 ~/ Mining block 3...
 Block mined: 00000028c04df85e5ebfda01b4efdc9543d23ebcd5a6a6a8865e5c053287a6e2
-'''
+```
