@@ -7,17 +7,21 @@
 
 using namespace std;
 
+// calling our blockchain class Blockchain
 class Blockchain {
+// public modifier and public variables
 public:
     Blockchain();
 
     void AddBlock(Block bNew);
 
+// private modifier and private variables
 private:
     uint32_t _nDifficulty;
     vector<Block> _vChain;
 
     Block _GetLastBlock() const;
+    //
 };
 
 #endif
