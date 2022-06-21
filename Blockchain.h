@@ -21,7 +21,9 @@ private:
     vector<Block> _vChain;
 
     Block _GetLastBlock() const;
-    //
+    // _GetLastBlock which is also followed by the
+    // const keyword to denote that the output of the method
+    // cannot be changed.
 };
 
 #endif
