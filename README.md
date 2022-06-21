@@ -13,10 +13,12 @@ The hash algorithm used is SHA-256
 ***
 
 1. Clone the Repository
-2. Compile the app: ...
-    ... - g++ -o basic_blockchain *.cpp
-3. Run the app: ...
-    ... - ./basic_blockchain
+2. Compile the app:
+    
+    - g++ -o basic_blockchain *.cpp
+3. Run the app:
+    
+    - ./basic_blockchain
 4. Enjoy!
 
 Example:
